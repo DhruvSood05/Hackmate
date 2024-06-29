@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      .profile-card {
+        background-color: #f5e9d7;
+        border-radius: 20px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      .profile-name {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .profile-icon {
+        width: 100px;
+        height: 100px;
+        background-color: #000;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+      }
+      .profile-info {
+        background-color: #d4b483;
+        border-radius: 10px;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      .profile-actions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      .action-button {
+        width: 40px;
+        height: 40px;
+        background-color: #000;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .action-button img {
+        width: 20px;
+        height: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="profile-name">Steven</div>
+      <div class="profile-icon"></div>
+      <div class="profile-info">Education : graduate</div>
+      <div class="profile-info">Tech Stack : HTML, CSS</div>
+      <div class="profile-actions">
+        <div class="action-button">
+          <img
+            src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f44e.svg"
+            alt="Thumbs down" />
+        </div>
+        <div class="action-button">
+          <img
+            src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f44d.svg"
+            alt="Thumbs up" />
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
